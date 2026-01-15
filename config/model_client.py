@@ -15,7 +15,6 @@ def get_model_client():
         model_client = OpenAIChatCompletionClient(
             api_key=api_key,
             model=MODEL,
-            text_mention_termination=TEXT_MENTION_TERMINATION,
         )
         return model_client
     
